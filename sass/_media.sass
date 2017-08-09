@@ -1,0 +1,807 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	.top-text
+		p
+			color: $white
+			font-size: 25px
+			padding-top: 20px
+
+	.button-white
+		font-size: 20px
+		margin: 13px 0px
+		padding: 17px 17px
+		color: #000
+
+	.hamburger
+		right: 0
+		top: 22px
+		position: relative
+
+	.header-content
+		top: 135px
+		&-title
+			h2
+				font-size: 35px
+				color: #fff
+
+		&-maintext
+			h1
+				font-size: 90px
+				color: $white
+				margin: 0
+				padding: 0
+				padding-bottom: 8px
+				line-height: 1.0
+				text-align: center
+
+		&-doubletext
+			background-color: $white
+			margin-top: -10px
+			width: 450px
+			height: 45px
+			text-align: center
+			padding-top: 6px
+			h2
+				text-transform: uppercase
+				font-family: $h2font
+				font-size: 30px
+				line-height: 1.0
+				padding: 0
+				margin: 0
+				color: $accent
+
+	.sale-form
+		margin: 0
+		margin-top: 10px
+
+	.lp-header
+		height: 100vh
+		min-height: 650px
+	.lp1
+		min-height: 900px
+	.lp2
+		min-height: 700px
+		padding: 0 15px
+	.lp2_button
+		display: block
+		text-align: right
+
+	.lp3_item
+		margin-bottom: 10px
+		img
+			width: 100%
+			height: 100%
+			padding: 0 10px
+
+	.lp3_item_oldprice
+		span
+			font-size: 25px
+
+	.lp3_item_button
+		a
+			padding: 17px 90px
+
+	.lp4
+		min-height: 750px
+	
+	.lp4_button
+		display: block
+		margin: auto
+		text-align: center
+
+	.lp7_item_img
+		padding-top: 30px
+
+	.lp6_button
+		display: block
+		text-align: center
+		a
+			padding: 17px 100px
+
+	.lp8_img
+		img
+			display: block
+			text-align: center
+
+	.lp11
+		min-height: 920px
+		img
+			width: 100%
+			height: 100%
+			padding: 0 10px
+
+	.btl-logo
+		img
+			margin-top: 15px
+			display: block
+			text-align: center
+			margin: auto
+
+	.btl-callback
+		display: block
+
+@media only screen and (max-width : 1200px)
+	.top-text
+		p
+			color: $white
+			font-size: 25px
+			padding-top: 20px
+
+	.button-white
+		font-size: 20px
+		margin: 13px 0px
+		padding: 17px 17px
+		color: #000
+
+	.hamburger
+		right: 0
+		top: 22px
+		position: relative
+
+	.header-content
+		top: 135px
+		&-title
+			h2
+				font-size: 35px
+				color: #fff
+
+		&-maintext
+			h1
+				font-size: 90px
+				color: $white
+				margin: 0
+				padding: 0
+				padding-bottom: 8px
+				line-height: 1.0
+				text-align: center
+
+		&-doubletext
+			background-color: $white
+			margin-top: -10px
+			width: 450px
+			height: 45px
+			text-align: center
+			padding-top: 6px
+			h2
+				text-transform: uppercase
+				font-family: $h2font
+				font-size: 30px
+				line-height: 1.0
+				padding: 0
+				margin: 0
+				color: $accent
+
+	.sale-form
+		margin: 0
+		margin-top: 10px
+
+	.lp-header
+		height: 100vh
+		min-height: 650px
+	.lp1
+		min-height: 1050px
+	.lp2
+		min-height: 700px
+		padding: 0 15px
+	.lp2_button
+		display: block
+		text-align: right
+
+
+	.lp3_item
+		margin-bottom: 10px
+		img
+			width: 100%
+			height: 100%
+			padding: 0 10px
+
+	.lp3_item_oldprice
+		span
+			font-size: 25px
+
+	.lp3_item_button
+		a
+			padding: 17px 90px
+
+	.lp4
+		min-height: 750px
+	
+	.lp4_button
+		display: block
+		margin: auto
+		text-align: center
+
+	.lp7_item_img
+		padding-top: 30px
+
+	.lp6_button
+		display: block
+		text-align: center
+		a
+			padding: 17px 100px
+
+	.lp8_img
+		img
+			display: block
+			text-align: center
+
+	.lp11
+		min-height: 850px
+		padding: 20px 20px
+		p
+			font-size: 20px
+			padding: 17px 10px
+		img
+			width: 100%
+			height: 100%
+			padding: 0 10px
+
+	.btl-logo
+		img
+			margin-top: 15px
+			display: block
+			text-align: center
+			margin: auto
+
+	.btl-callback
+		display: block
+		text-align: center
+		margin: auto
+				
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.tpl-bg
+		position: absolute
+		z-index: 3
+		width: 100%
+		height: auto
+		min-height: 100px
+		background-color: $accent
+		opacity: 0.8
+
+	.top-text
+		p
+			color: $white
+			font-size: 20px
+			padding-top: 10px
+
+	.button-white
+		font-size: 16px
+		margin: 13px 0px
+		padding: 10px 10px
+		color: #000
+
+	.hamburger
+		left: 70px
+		top: -15px
+		position: relative
+
+	.header-content
+		top: 110px
+		&-title
+			h2
+				font-size: 19px
+				color: #fff
+
+		&-maintext
+			h1
+				font-size: 50px
+				color: $white
+				margin: 0
+				padding: 0
+				padding-bottom: 8px
+				line-height: 1.0
+				text-align: center
+
+		&-doubletext
+			background-color: $white
+			margin-top: -5px
+			width: 290px
+			height: 35px
+			text-align: center
+			padding-top: 6px
+			h2
+				text-transform: uppercase
+				font-family: $h2font
+				font-size: 20px
+				line-height: 1.0
+				padding: 0
+				margin: 0
+				color: $accent
+
+	.sale-form
+		margin: 0
+		margin-top: 10px
+
+	.lp-header
+		height: 100vh
+		min-height: 650px
+	.lp1
+		min-height: 1520px
+	.lp2
+		min-height: 850px
+		padding: 0 15px
+	.lp2_button
+		display: block
+		text-align: right
+
+
+	.lp3_item
+		margin-bottom: 10px
+
+	.lp4
+		min-height: 950px
+	
+	.lp4_button
+		display: block
+		margin: auto
+		text-align: center
+
+	.lp7_item_img
+		padding-top: 30px
+
+	.lp6_button
+		display: block
+		text-align: center
+		a
+			padding: 17px 100px
+
+	.lp8_img
+		img
+			display: block
+			text-align: center
+
+	.lp11
+		min-height: 850px
+		img
+			width: 100%
+			height: 100%
+			padding: 0 10px
+
+	.btl-logo
+		img
+			margin-top: 15px
+			display: block
+			text-align: center
+			margin: auto
+
+	.btl-callback
+		display: block
+		text-align: center
+		margin: auto
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.tpl-bg
+		position: absolute
+		z-index: 3
+		width: 100%
+		height: auto
+		min-height: 270px
+		background-color: $accent
+		opacity: 0.8
+	
+	.logo
+		img
+			display: block
+			margin: auto
+
+	.top-text
+		margin: auto
+		p
+			font-family: $header-font
+			font-size: 30px
+			color: $white
+			line-height: 1.25
+			margin: 0
+			padding: 0
+			padding-top: 10px
+			text-align: center
+
+	.button-white
+		display: block
+		margin: auto
+		font-size: 20px
+		margin: 13px 0px
+		padding: 17px 17px
+		color: #000
+
+	.hamburger
+		left: 0
+		top: 12px
+		position: relative
+
+	.header-content
+		top: 300px
+		&-title
+			h2
+				font-size: 30px
+				color: #fff
+
+		&-maintext
+			h1
+				font-size: 85px
+				color: $white
+				margin: 0
+				padding: 0
+				padding-bottom: 8px
+				line-height: 1.0
+				text-align: center
+
+		&-doubletext
+			background-color: $white
+			margin-top: -5px
+			width: 480px
+			height: 45px
+			text-align: center
+			padding-top: 6px
+			h2
+				text-transform: uppercase
+				font-family: $h2font
+				font-size: 30px
+				line-height: 1.0
+				padding: 0
+				margin: 0
+				color: $accent
+
+	.sale-form
+		margin: 0
+		margin-top: 10px
+
+	.lp-header
+		height: 100vh
+		min-height: 1050px
+	.lp1
+		min-height: 2520px
+	.lp2
+		min-height: 1350px
+		padding: 0 15px
+	.lp2_button
+		display: block
+		margin: auto
+		text-align: center	
+
+	.lp3_item
+		margin-bottom: 10px
+
+	.lp4
+		min-height: 1400px
+	
+	.lp4_button
+		display: block
+		margin: auto
+		text-align: center
+
+	.lp7_item_img
+		padding-top: 30px
+
+	.lp11
+		min-height: 1550px
+		img
+			width: 100%
+			height: 100%
+			padding: 0 10px
+	.btl-description
+		p
+			text-align: center
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-height : 480px)
+	.tpl-bg
+		position: absolute
+		z-index: 3
+		width: 100%
+		height: auto
+		min-height: 230px
+		background-color: $accent
+		opacity: 0.8
+
+	.top-text
+		margin: auto
+		p
+			font-family: $header-font
+			font-size: 20px
+			color: $white
+			line-height: 1.25
+			margin: 0
+			padding: 0
+			padding-top: 10px
+			text-align: center
+
+	.button-white
+		display: block
+		margin: auto
+		font-size: 16px
+		margin: 13px 0px
+		padding: 17px 10px
+		color: #000
+
+	.hamburger
+		display: block
+		margin: auto
+		top: 11px
+		position: relative
+
+	.header-content
+		top: 250px
+		&-title
+			h2
+				font-size: 30px
+				color: #fff
+				text-align: center
+				line-height: 1.0
+				padding-bottom: 10px
+
+		&-maintext
+			h1
+				font-size: 40px
+				color: $white
+				margin: 0
+				padding: 0
+				padding-bottom: 8px
+				line-height: 1.0
+				text-align: center
+
+		&-doubletext
+			background-color: $white
+			margin-top: -5px
+			width: 280px
+			height: 35px
+			text-align: center
+			padding-top: 6px
+			h2
+				text-transform: uppercase
+				font-family: $h2font
+				font-size: 20px
+				line-height: 1.0
+				padding: 0
+				margin: 0
+				color: $accent
+
+	.sale-form
+		margin: 0
+		margin-top: 10px
+
+	.lp-header
+		height: 100vh
+		min-height: 950px
+	.lp1
+		min-height: 2770px
+	.lp2
+		min-height: 1300px
+		padding: 0 15px
+	.lp2_button
+		display: block
+		margin: auto
+		text-align: center	
+
+	.lp3_item
+		margin-bottom: 10px
+
+	.lp4
+		min-height: 1400px
+	
+	.lp4_button
+		display: block
+		margin: auto
+		text-align: center
+
+	.lp7_item_img
+		padding-top: 30px
+
+	.lp11
+		min-height: 1250px
+		img
+			width: 100%
+			height: 100%
+			padding: 0 10px
+	.btl-description
+		p
+			text-align: center
+	
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 480px)
+	.lp-header
+		height: 100vh
+		min-height: 950px
+
+	.tpl-bg
+		position: absolute
+		z-index: 3
+		width: 100%
+		height: auto
+		min-height: 260px
+		background-color: $accent
+		opacity: 0.8
+
+	.top-text
+		margin: auto
+		p
+			font-family: $header-font
+			font-size: 20px
+			color: $white
+			line-height: 1.25
+			margin: 0
+			padding: 0
+			padding-top: 10px
+			text-align: center
+
+	.button-white
+		display: block
+		margin: auto
+		font-size: 16px
+		margin: 13px 0px
+		padding: 17px 10px
+		color: #000
+
+	.hamburger
+		display: block
+		margin: auto
+		top: 11px
+		position: relative
+
+	.header-content
+		top: 280px
+		&-title
+			h2
+				font-size: 30px
+				color: $white
+				text-align: center
+				line-height: 1.0
+				padding-bottom: 10px
+
+		&-maintext
+			h1
+				font-size: 40px
+				color: $white
+				margin: 0
+				padding: 0
+				padding-bottom: 8px
+				line-height: 1.0
+				text-align: center
+
+		&-doubletext
+			background-color: $white
+			margin-top: -5px
+			width: 280px
+			height: 35px
+			text-align: center
+			padding-top: 6px
+			h2
+				text-transform: uppercase
+				font-family: $h2font
+				font-size: 20px
+				line-height: 1.0
+				padding: 0
+				margin: 0
+				color: $accent
+
+	.sale-form
+		margin: 0
+		margin-top: 10px
+
+	.lp1
+		min-height: 3070px
+	.lp1_title
+		line-height: 1.3
+		h1
+			font-size: 40px
+
+	.lp2
+		min-height: 1200px
+		padding: 0 15px
+	.lp2_title
+		h1
+			font-size: 40px
+
+	.lp3
+		padding-bottom: 10px
+	.lp3_title
+		line-height: 1.3
+		h1
+			font-size: 40px
+
+	.lp3_item
+		img
+			width: 100%
+	.lp3_item_oldprice
+		span
+			font-size: 25px
+	.lp3_item
+		margin-bottom: 10px
+	.lp3_item_button
+		display: block
+		margin: auto
+		a
+			padding: 17px 90px
+			text-align: center
+	
+	.lp4
+		min-height: 970px
+	.lp4_title
+		h1
+			font-size: 30px
+			line-height: 1.3
+	.lp4_description
+		h2
+			font-size: 30px
+			line-height: 1.3
+			padding-bottom: 20px
+		h3
+			font-size: 30px
+			line-height: 1.3
+	.lp4_img
+		img
+			width: 280px
+			height: auto
+			display: block
+			margin: auto
+			text-align: center
+			margin-bottom: 30px
+	.lp4_ch1, .lp4_ch2, .lp4_ch3, .lp4_ch4
+		p
+			font-size: 40px
+	.lp4_button
+		display: block
+		margin: auto
+		text-align: center
+	.lp6
+		h1
+			line-height: 1.3
+	.lp7_title
+		h1
+			line-height: 1.3
+			font-size: 30px
+	.lp7_item_img
+		padding-top: 30px
+
+	.lp8_title
+		h1
+			font-size: 30px
+			line-height: 1.3
+
+	.lp10_title
+		h1
+			font-size: 40px
+			line-height: 1.3
+
+	.lp11
+		min-height: 1150px
+		img
+			width: 100%
+			height: 100%
+			padding: 0 10px
+	.lp11_title
+		h1
+			font-size: 40px
+			line-height: 1.3
+	.lp11_button
+		p
+			padding: 5px 15px
+	.btl-description
+		p
+			text-align: center
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
