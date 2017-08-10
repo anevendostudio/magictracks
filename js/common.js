@@ -62,9 +62,9 @@ $('.lp3_item_content').equalHeights();
 
 $('#bgvideo').videoBG({
     mp4:'/img/header.mp4',
-    ogv:'/img/header.ogv',
     webm:'/img/header.webm',
     poster:'/img/header.jpg',
+    ogv:'/img/header.ogv',
     scale:true,
     zIndex:0
 });
